@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Temp_Converter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mtW-0I-NIF"/>
+                        <viewControllerLayoutGuide type="bottom" id="hs2-9u-9TF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fot-8J-Ae4">
+                                <rect key="frame" x="80" y="319.5" width="215" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="B7b-4M-Plj"/>
+                                    <constraint firstAttribute="height" constant="21" id="H4d-KU-b67"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Au-Gl-5UV">
+                                <rect key="frame" x="121.5" y="237.5" width="132" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Convert to F">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5rb-HA-H6A"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOC-fL-8KB">
+                                <rect key="frame" x="20" y="40" width="200" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="KZX-c7-vXy"/>
+                                    <constraint firstAttribute="height" constant="20" id="Mpt-gg-Rqd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwa-dV-Q8b">
+                                <rect key="frame" x="80" y="179" width="215" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LxY-sw-gc8"/>
+                                    <constraint firstAttribute="width" constant="215" id="nqp-HW-N2U"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.58131454085949963" blue="0.40726878083341078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Au-Gl-5UV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7xa-Bv-ShH"/>
+                            <constraint firstItem="Fot-8J-Ae4" firstAttribute="top" secondItem="3Au-Gl-5UV" secondAttribute="bottom" constant="40" id="IDi-ex-wKB"/>
+                            <constraint firstItem="3Au-Gl-5UV" firstAttribute="top" secondItem="dwa-dV-Q8b" secondAttribute="bottom" constant="28.5" id="M2K-DF-Mwe"/>
+                            <constraint firstItem="Fot-8J-Ae4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UbX-eX-EaG"/>
+                            <constraint firstItem="dwa-dV-Q8b" firstAttribute="centerX" secondItem="3Au-Gl-5UV" secondAttribute="centerX" id="bz6-Pm-TXq"/>
+                            <constraint firstItem="3Au-Gl-5UV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-75" id="e5h-nd-2gy"/>
+                            <constraint firstItem="cOC-fL-8KB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="fjY-V0-6FF"/>
+                            <constraint firstItem="cOC-fL-8KB" firstAttribute="top" secondItem="mtW-0I-NIF" secondAttribute="bottom" constant="20" id="sEm-3K-tUw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="Fot-8J-Ae4" id="uGW-h8-jAp"/>
+                        <outlet property="entryTempTextField" destination="dwa-dV-Q8b" id="7qe-uI-tqW"/>
+                        <outlet property="numOfConvLabel" destination="cOC-fL-8KB" id="J3h-TG-Je5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="99.400299850074973"/>
+        </scene>
+    </scenes>
+</document>

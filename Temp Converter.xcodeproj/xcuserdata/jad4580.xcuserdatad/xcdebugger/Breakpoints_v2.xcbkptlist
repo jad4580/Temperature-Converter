@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Temp Converter/ViewController.swift"
+            timestampString = "537045903.58599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Temp_Converter.ViewController.answerLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Temp Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jad4580/Documents/Temp%20Converter/Temp%20Converter/ViewController.swift"
+                  timestampString = "536777333.546773"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Temp_Converter.ViewController.answerLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Temp Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jad4580/Documents/Temp%20Converter/Temp%20Converter/ViewController.swift"
+                  timestampString = "536777333.551783"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Temp_Converter.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Temp_Converter.ViewController"
+                  moduleName = "Temp Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jad4580/Documents/Temp%20Converter/Temp%20Converter/ViewController.swift"
+                  timestampString = "536777333.555304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Temp_Converter.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Temp_Converter.ViewController&gt;"
+                  moduleName = "Temp Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jad4580/Documents/Temp%20Converter/Temp%20Converter/ViewController.swift"
+                  timestampString = "536777333.558556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
